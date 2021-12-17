@@ -49,7 +49,6 @@ atbash(wa,text);
 printf("\n");
 printf("Anagram Sequences: ");
 anagram(word, text);
-printf("\n");
 
 
 
