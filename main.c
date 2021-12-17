@@ -40,14 +40,14 @@ c=getchar();
 }
 text[j]='~';
 text[++j]='\0';
-printf("Gimatria Sequences:");
+printf("Gimatria Sequences: ");
 gimetria(word,text);
 printf("\n");
-printf("Atbash Sequences:");
+printf("Atbash Sequences: ");
 char * wa=atbashWord(word);
 atbash(wa,text);
 printf("\n");
-printf("Anagram Sequences:");
+printf("Anagram Sequences: ");
 anagram(word, text);
 printf("\n");
 
