@@ -251,6 +251,7 @@ int word_sum = sumAtbashWord(word);
                         first2++;
                         c3++;
                     }
+                    flag++;
             if (flag==1)
                 {
                     while (c3<=c4)
