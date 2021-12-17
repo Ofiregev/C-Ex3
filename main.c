@@ -7,7 +7,6 @@ int main(){
 #define WORD 30
 char word[WORD];
 char text[TXT];
-printf("please enter a word:");
 // char w=getchar();
 // int i=0;
 // while(w!= '\n'){
@@ -32,7 +31,6 @@ k++;
 }
 word[k]='\0';
 
-printf("please enter a text:");
 char c=getchar();
 int j=0;
 while(c!='~'){
