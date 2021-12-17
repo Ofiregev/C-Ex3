@@ -40,7 +40,7 @@ c=getchar();
 }
 text[j]='~';
 text[++j]='\0';
-printf("Gimatria Sequences: ");
+printf("Gematria Sequences: ");
 gimetria(word,text);
 printf("\n");
 printf("Atbash Sequences: ");
